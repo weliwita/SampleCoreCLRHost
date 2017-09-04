@@ -34,7 +34,7 @@
 // If your customers will have the CoreCLR.dll installed elsewhere, this will, of course, need modified.
 // Some hosts will carry the runtime and Framework with them locally so that necessary files like CoreCLR.dll 
 // are easy to find and known to be good versions.
-static const wchar_t *coreCLRInstallDirectory = L("%programfiles%\\dotnet\\shared\\Microsoft.NETCore.App\\2.1.0-preview1-25418-02");
+static const wchar_t *coreCLRInstallDirectory = L("D:\\Projects\\GitHub\\SampleCoreCLRHost\\SampleAppCore\\bin\\release\\netcoreapp2.0\\win10-x64\\publish");
 
 // Main clr library to load
 static const wchar_t* coreCLRDll = L("coreclr.dll");
